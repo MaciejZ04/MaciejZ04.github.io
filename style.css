@@ -2,8 +2,8 @@ div{
  margin:1cm;
  padding:1cm;
  text-align: center;
- border:2px;
-border-color:white;
+ 
+
 
  }
 
@@ -21,7 +21,7 @@ text-decoration: underline;
 word-spacing:10px;
 font-size: x-large;
   height:10%;
-  
+  background-image:none;
 }
 .OMnie{
 
@@ -35,9 +35,9 @@ text-align:center;
 h2{
 text-align:center;
 } 
-.tlo{
+body{
 
- text-color:white;
+ color:white;
  background-image: url(tlo.png)
 
 } 
