@@ -8,6 +8,7 @@ text-decoration: underline;
 } 
 body{
 background-image:url (tlo.png) ;
+  background-size: contain;
 } 
 .Main{
 word-spacing:10px;
