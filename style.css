@@ -6,16 +6,19 @@ a:hover{
 text-decoration: underline;
 
 } 
-body{
-background-image:url (tlo.png) ;
-  background-size: contain;
-} 
+
+
 .Main{
 word-spacing:10px;
 font-size: x-large;
   height:10%;
   
 }
+.OMnie{
+background-image:url (tlo.png) ;
+  background-size: contain;
+
+} 
 
 h1{
 text-align:center;
