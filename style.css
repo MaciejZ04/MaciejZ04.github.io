@@ -4,12 +4,18 @@ text-decoration: none;
 }
 a:hover{
 text-decoration: underline;
+
 } 
 .Main{
-word-spacing:10;
+word-spacing:10px;
 font-size: x-large;
+  height:10%;
+  
 }
 
 h1{
+text-align:center;
+} 
+h2{
 text-align:center;
 } 
