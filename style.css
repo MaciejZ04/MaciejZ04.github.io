@@ -6,6 +6,9 @@ a:hover{
 text-decoration: underline;
 
 } 
+body{
+background-image:url (tlo.png) ;
+} 
 .Main{
 word-spacing:10px;
 font-size: x-large;
