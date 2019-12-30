@@ -2,6 +2,9 @@ div{
  margin:1cm;
  padding:1cm;
  text-align: center;
+ border:2px;
+border-color:white;
+
  }
 
 a{
@@ -21,9 +24,8 @@ font-size: x-large;
   
 }
 .OMnie{
-  
 
-  background-size: contain;
+
 
 } 
 
