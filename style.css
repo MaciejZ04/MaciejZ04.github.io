@@ -3,9 +3,7 @@ div{
  padding:1cm;
  text-align: center;
  }
-body{
- background-image: url(tlo.png)
-} 
+
 a{
 text-decoration: none;
   color: black;
@@ -34,4 +32,10 @@ text-align:center;
 } 
 h2{
 text-align:center;
+} 
+.tlo{
+
+ text-color:white;
+ background-image: url(tlo.png)
+
 } 
