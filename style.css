@@ -1,7 +1,11 @@
 div{
  margin:1cm;
  padding:1cm;
- } 
+ text-align: center;
+ }
+body{
+ background-image: url(tlo.png)
+} 
 a{
 text-decoration: none;
   color: black;
@@ -19,8 +23,8 @@ font-size: x-large;
   
 }
 .OMnie{
-  background-color: blue;
-background-image:url (tlo.png) ;
+  
+
   background-size: contain;
 
 } 
