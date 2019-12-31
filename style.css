@@ -1,7 +1,5 @@
 div{
- margin:1cm;
- padding:1cm;
- text-align: center;
+ 
  
 
 
@@ -21,13 +19,22 @@ text-decoration: underline;
 word-spacing:10px;
 font-size: x-large;
   height:10%;
-  background-image:none;
+  
 }
 .OMnie{
 
+margin:1cm;
 
+ padding:1cm;
+
+ text-align: center;
 
 } 
+.projekty{
+margin:1cm;
+ padding:1cm;
+ text-align: center;
+}
 
 h1{
 text-align:center;
@@ -38,6 +45,6 @@ text-align:center;
 body{
 
  color:white;
- background-image: url(tlo.png)
+
 
 } 
