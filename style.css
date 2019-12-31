@@ -1,5 +1,8 @@
 
- 
+ body{
+  
+ background-image:url(tlo.png);
+ } 
  
 
 
@@ -19,7 +22,7 @@ text-decoration: underline;
 word-spacing:10px;
 font-size: x-large;
   height:108px;
-  
+  background-color: white;
 }
 .OMnie{
 
@@ -48,8 +51,7 @@ margin:1cm;
  vertical-align:bottom;
 }
 .tlo{
- Background-image:url(tlo.png);
- height: 10000px;
+ 
  }
 h1{
 text-align:center;
