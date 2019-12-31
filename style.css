@@ -19,9 +19,11 @@ text-decoration: underline;
 
 
 .Main{
+ margin-left:2cm;
+  margin-right: 2cm;
 word-spacing:10px;
 font-size: x-large;
-  height:108px;
+  height:8%;
   background-color: white;
 }
 .OMnie{
