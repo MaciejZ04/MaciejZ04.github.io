@@ -28,17 +28,21 @@ margin:1cm;
  padding:1cm;
 
  text-align: center;
+ 
+ border-style: double solid;
 
 } 
 .Projekty{
 margin:1cm;
  padding:1cm;
  text-align: center;
+ border-style: double solid;
 }
 .Kontakt{
 margin:1cm, 1cm, 0cm;
  padding:1cm;
  text-align: center;
+ border-style: double solid;
 }
 .tlo{
  Background-image:url(tlo.png);
