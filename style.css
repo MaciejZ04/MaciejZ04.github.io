@@ -5,6 +5,9 @@ text-decoration: none;
 a:hover{
 text-decoration: underline;
 } 
+.hh1{
+ word-spacing:normal; 
+}
 .LOGO{
   float:left;
   margin-left:300px
