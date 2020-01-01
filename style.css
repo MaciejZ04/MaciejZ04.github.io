@@ -1,8 +1,5 @@
 
- body{
-  
- background-image:url(tlo.png);
- } 
+ 
  
 
 
@@ -19,8 +16,7 @@ text-decoration: underline;
 
 
 .Main{
- margin-left:2cm;
-  margin-right: 2cm;
+ 
 word-spacing:10px;
 font-size: x-large;
  width:100%;
@@ -51,7 +47,7 @@ margin:1cm;
  padding:1cm;
  text-align: center;
  border: 4px solid #f2ff00;
- align:bottom;
+ vertical-align:bottom;
  
 
     
@@ -60,6 +56,10 @@ margin:1cm;
 }
 .tlo{
  
+ width: 100%;
+ height: 2000px;
+ background-image:url(tlo.png);
+
  }
 h1{
 text-align:center;
