@@ -18,9 +18,9 @@ font-size: x-large;
 }
 .OMnie{
 
-margin:1cm, 50px;
+margin:1cm,;
 
- padding:1cm;
+ padding:5mm;
 
  text-align: center;
  
@@ -49,8 +49,8 @@ margin:1cm;
 }
 .tlo{
  
- width: 100%;
- height: auto;
+ width: 110%;
+ height: 100%;
  background-image:url(tlo.png);
 
  }
