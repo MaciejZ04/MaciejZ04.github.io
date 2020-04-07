@@ -17,10 +17,10 @@
 <h3>Ryby spokojnego żeru(białe)</h3>
 <?php ?>
 <br>
-<ul>
+<ol>
 <li><a target="_blank"  href="https://wedkuje.pl/">Odwiedź także</a></li>
 <li><a target="_blank"  href="http://www.pzw.org.pl/">Polski Związek Wędkarski</a></li>
-<ul>
+<ol>
 </div>
 
 <div id="stopka">
