@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE php>
 <html lang="pl">
 <head>
 <title>Klub wędkowania</title>
