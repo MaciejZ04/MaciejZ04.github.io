@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE php>
 <head lang="pl">
   <title>Prognoza pogody Poznań</title>
  <link rel = "stylesheet" href = "styl4.css">
