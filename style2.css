@@ -9,3 +9,20 @@ text-decoration:none;
 a:hover{
 color:red;
 }
+#baner{
+background-color:#7a1c91;
+text-align:center;
+width:100%;
+height:50px;
+}
+img{
+vertical-align:middle;
+  horizontal-align:middle;
+}
+#projekt1, #projekt2{
+padding:10px;
+margin:50px;
+float:left;
+width:50%;
+height:100px;
+}
