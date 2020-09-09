@@ -1,0 +1,38 @@
+body{
+margin:0;
+color: red;
+background-color: darkgray;
+font: 20px Arial;
+}
+
+footer{
+	text-align:right;
+}
+
+
+header{
+	background-color:black;
+	min-height:130px;
+}
+a{
+	color:red;
+}
+div{
+	text-align:right;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+nav{
+	width:20%;
+	height:520px;
+	float:left;
+	
+}
+main{
+	width:80%;
+	text-align:center;
+	height:520px;
+	background: linear-gradient(90deg,black, white,black);
+	float:left;
+}
+

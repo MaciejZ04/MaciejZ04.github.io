@@ -1,0 +1,13 @@
+table {
+margin: auto;
+
+}
+th, td, tr {
+padding: 5px 10px;
+text-align: center;
+font: 16px Arial;
+color: black;
+border-collapse:collapse;
+border: 2px solid black;
+
+}
