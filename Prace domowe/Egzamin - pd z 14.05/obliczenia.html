@@ -18,18 +18,19 @@
 <label>Ile litrów</label><br/>
 <input id="b" type="number" min="0"></input><br/>
 <button onclick="liczenie()">OBLICZ</button>
+<p id="wynik"></p>
 <script type="text/javascript">
   function liczenie(){
-  var paliwo=document.getElementById("a");
-  var litry=document.getElementById("b");
+  var paliwo=document.getElementById("a").value;
+  var litry=document.getElementById("b").value;
   var cena;
   if(a==1){
     cena=b*4;
-    document.write("cena");
+    document.getElementById("wynik").innerHTML="Koszt paliwa"+ cena +"zł";
   }
     else{
     cena=b*3.50;
-      document.write("cena");
+      document.getElementById("wynik").innerHTML="Koszt paliwa"+ cena +"zł";
     }
  
  </script>
