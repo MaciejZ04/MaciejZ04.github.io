@@ -14,10 +14,25 @@
 <div id="główny">
 <h3>Oblicz koszt paliwa</h3>
 <label>Rodzaj paliwa(1-benzyna,2-olej napędowy)</label><br/>
-<input type="number"></input><br/>
+<input id ="a" type="number" min="1" max="2"></input><br/>
 <label>Ile litrów</label><br/>
-<input type="number"></input><br/>
-<button>OBLICZ</button>
+<input id="b" type="number" min="0"></input><br/>
+<button onclick="liczenie()">OBLICZ</button>
+<script type="text/javascript">
+  function liczenie(){
+  var paliwo=document.getElementById("a");
+  var litry=document.getElementById("b");
+  var cena;
+  if(a==1){
+    cena=b*4;
+    return cena;
+  }
+    else{
+    cena=b*3.50;
+      return cena;
+    }
+ 
+ </script>
 </div>
 <div id="lewy">
 <a href="kwerendy.txt">Pobierz kwerendy</a>
