@@ -2,7 +2,7 @@ table {
 margin: auto;
 
 }
-td, tr {
+tr,td, tr {
 
 text-align: center;
 font: 16px Arial;
@@ -10,4 +10,7 @@ color: black;
 border-collapse:collapse;
 border: 2px solid black;
 
+}
+tr{
+font-style:bold;
 }
