@@ -26,12 +26,16 @@
   var cena;
   if(a=='1'){
     var cena=b*4;
-    document.getElementById("wynik").innerHTML="Koszt paliwa"+ cena +"zł";
+    document.getElementById("wynik").innerHTML="Koszt paliwa: "+ cena +"zł";
   }
-    else{
+    else if(a=='2'){
     var cena=b*3.5;
-      document.getElementById("wynik").innerHTML="Koszt paliwa"+ cena +"zł";
+      document.getElementById("wynik").innerHTML="Koszt paliwa: "+ cena +"zł";
     }
+    else{
+    document.getElementById("wynik").innerHTML="Koszt paliwa: 0zł";
+    }
+  }
  
  </script>
 </div>
