@@ -19,12 +19,12 @@
 <input id="b" type="number" min="0"></input><br/>
 <button onclick="liczenie()">OBLICZ</button><br/>
 <p id="wynik"></p>
-<script type="text/javascript">
+<script>
   function liczenie(){
   var paliwo=document.getElementById("a").value;
   var litry=document.getElementById("b").value;
   var cena;
-  if(a==1){
+  if(a=='1'){
     cena=b*4;
     document.getElementById("wynik").innerHTML="Koszt paliwa"+ cena +"zł";
   }
