@@ -34,5 +34,13 @@ main{
 	height:520px;
 	background: linear-gradient(90deg,black, white,black);
 	float:left;
-}
+	@keyframes aside1{
+	from(left:-500px;)
+	to(left:0px;)
+	}
+	aside, span{
+	position:relative;
+	animation: aside1 5s alternate infinite;
+	}
+	
 
