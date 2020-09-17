@@ -2,24 +2,7 @@
 <head lang="pl">
   <title>Stacja paliw</title>
  <link rel = "stylesheet" href = "styl3.css">
-</head>
-<body>
-<div id="baner-lewy">
-<h1>Stacja paliw</h1> 
-</div>
-<div id="baner-prawy">
-<a href="stacja.html"><img src="home.png"></a>
-<a href="obliczenia.html"><img src="znak.png"></a>
-</div>
-<div id="główny">
-<h3>Oblicz koszt paliwa</h3>
-<label>Rodzaj paliwa(1-benzyna,2-olej napędowy)</label><br/>
-<input id ="a" type="number" min="1" max="2"></input><br/>
-<label>Ile litrów</label><br/>
-<input id="b" type="number" min="0"></input><br/>
-<button onclick="liczenie()">OBLICZ</button><br/>
-<div id="wynik"></div>
-<script>
+  <script>
   function liczenie(){
   var paliwo=document.getElementById("a").value;
   var litry=document.getElementById("b").value;
@@ -41,6 +24,23 @@
   }
  
  </script>
+</head>
+<body>
+<div id="baner-lewy">
+<h1>Stacja paliw</h1> 
+</div>
+<div id="baner-prawy">
+<a href="stacja.html"><img src="home.png"></a>
+<a href="obliczenia.html"><img src="znak.png"></a>
+</div>
+<div id="główny">
+<h3>Oblicz koszt paliwa</h3>
+<label>Rodzaj paliwa(1-benzyna,2-olej napędowy)</label><br/>
+<input id ="a" type="number" min="1" max="2"></input><br/>
+<label>Ile litrów</label><br/>
+<input id="b" type="number" min="0"></input><br/>
+<button onclick="liczenie()">OBLICZ</button><br/>
+<div id="wynik"></div>
 </div>
 <div id="lewy">
 <a href="kwerendy.txt">Pobierz kwerendy</a>
