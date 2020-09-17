@@ -7,15 +7,12 @@
   var paliwo=document.getElementById("a").value;
   var litry=document.getElementById("b").value;
    var cena;
-   var typ;
-  if(a === '1'){
-    typ=4;
-    cena=litry*typ;
+  if(paliwo === '1'){
+    cena=litry*4;
     document.getElementById("wynik").innerHTML="Koszt paliwa: "+ cena +"zł";
   }
-    else if(a==='2'){
-    typ=3.5;
-    cena=litry*typ;
+    else if(paliwo ==='2'){
+    cena=litry*3.5;
       document.getElementById("wynik").innerHTML="Koszt paliwa: "+ cena +"zł";
     }
     else{
