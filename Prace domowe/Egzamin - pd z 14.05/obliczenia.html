@@ -6,16 +6,14 @@
   function liczenie(){
   var paliwo=document.getElementById("a").value;
   var litry=document.getElementById("b").value;
-  var cena;
-  var typ;
-  if(a==='1'){
-    typ=4;
-    cena=b*typ;
+  if(a === '1'){
+    var typ=4;
+    var cena=b*typ;
     document.getElementById("wynik").innerHTML="Koszt paliwa: "+ cena +"zł";
   }
     else if(a==='2'){
-    typ=3.5;
-    cena=b*typ;
+    var typ=3.5;
+    var cena=b*typ;
       document.getElementById("wynik").innerHTML="Koszt paliwa: "+ cena +"zł";
     }
     else{
