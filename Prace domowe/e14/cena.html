@@ -26,9 +26,7 @@
 function licz(){
 var powierzchnia=document.getElementById("pow").value;
 var a = powierzchnia/4;
-if(powierzchnia%4!=0){
- a+=1;
-   }
+a=Math.Ceil(a);
  document.getElementById("pisz").innerHTML="Liczba jednolitrowych puszek farby potrzebnych do pomalowania wynosi:"+ a;
 }
 </script>
