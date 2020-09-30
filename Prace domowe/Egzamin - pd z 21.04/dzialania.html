@@ -20,14 +20,15 @@
 <div id="lewy">
 <h3>Proste działania</h3>
 <label>Liczba A:</label>
-<input type="number"></input>
+<input id="a" type="number"></input><br/>
 <label>Liczba B:</label>
-<input type="number"></input><br/>
-<button>+</button>
-<button>-</button>
-<button>*</button>
-<button>/</button>
-<button>A^B</button>
+<input id="b" type="number"></input><br/>
+<button onclick="dodaj">+</button>
+<button onclick="odejmij">-</button>
+<button onclick="dziel">*</button>
+<button onclick="mnoz">/</button>
+<button onclick="poteguj">A^B</button>
+<p id="wynik"></p>
 </div>
 <div id="prawy">
 <ul>
@@ -41,5 +42,42 @@
 <div id="stopka">
 <p>Autor: XXXXXXXXXXX</p>
 </div>
+<script>
+   function dodaj(){
+     var wynik;
+     var a = document.getElementById("a"*1).value;
+     var b = document.getElementById("b"*1).value;
+     wynik = a+b;
+     document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+   }
+  function odejmij(){
+    var wynik;
+     var a = getElementById("a"*1).value;
+     var b = getElementById("b"*1).value;
+    wynik = a-b;
+     document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+   }
+  function dziel(){
+    var wynik;
+     var a = getElementById("a"*1).value;
+     var b = getElementById("b"*1).value;
+    wynik = a/b;
+     document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+   }
+  function mnoz(){
+    var wynik;
+     var a = getElementById("a"*1).value;
+     var b = getElementById("b"*1).value;
+    wynik = a*b;
+     document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+   }
+  function poteguj(){
+    var wynik;
+     var a = getElementById("a"*1).value;
+     var b = getElementById("b"*1).value;
+    wynik = a^b;
+     document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+   }
+  </script>
 </body>
 </html>
