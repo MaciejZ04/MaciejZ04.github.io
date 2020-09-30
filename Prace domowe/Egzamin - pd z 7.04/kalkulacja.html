@@ -20,10 +20,11 @@
 
 <div id="glowny">
 <h2>Oblicz, ile litrów musisz zatankować.</h2>
-<input type="number"><br/>Dystans do przejechania w km</input><br/>
-<input type="number"><br/>Spalanie samochodu w l/100km</input><br/>
-<button>Oblicz</button>
+<input id="a" type="number" min="0"><br/>Dystans do przejechania w km<br/>
+<input id="b" type="number"><br/>Spalanie samochodu w l/100km<br/>
+<button onclick="Oblicz()">Oblicz</button>
 </div>
+ <div id="pisz"></div>
 
 <div id="stopkaLewo">
 <p>Stronę opracował: XXXXXXXXXXX</p>
@@ -32,6 +33,16 @@
 <div id="stopkaPrawo">
 <a href="kwarendy.txt">Tu pobierzesz zapytania</a>
 </div>
+<script>
+  function Oblicz(){
+  var dystans=document.getElementById("a").value;
+  var spalanie=document.getElementById("b").value;
+  var litry = spalanie*(dystans/100);
+  document.getElementById("pisz").innerHTML="Potrzebujesz"+ litry + "litrów paliwa";
+  
+    
+  }
+</script>
 
 </body>
 </html>
