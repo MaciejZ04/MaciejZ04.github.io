@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+<div id="gora">
+<img src="baner.jpg" alt=""/>
+</div>
+<div id="dol">
+<div id="lewy">
+<p>Menu</p>
+<ul>
+<li><a href="strona1.html">proste działania</a></li>
+<li><a href="strona2.html">potęgowanie</a></li>
+</ul>
+</div>
+<div id="prawy">
+<h1>Proste działania</h1>
+<label>Podaj pierwszą liczbę</label><input id="a" type="number"><br/>
+<label>Podaj drugą liczbę</label><input id ="b" type="number"><br/>
+<button onclick="dodaj()">Dodawanie</button>
+<button onclick="odejmij()">Odejmowanie</button>
+<button onclick="mnoz()">Mnożenie</button>
+<button onclick="dziel()">Dzielenie</button><br\>
+<div id="wynik"></div>
+</div>
+</div>
+
+<script>
+   function dodaj(){
+     var wynik;
+     var a = document.getElementById("a").value;
+     var b = document.getElementById("b").value;
+	 wynik = parseInt(a) + parseInt(b);
+	 document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+     
+     
+   }
+  function odejmij(){
+    var wynik;
+     var a = document.getElementById("a").value;
+     var b = document.getElementById("b").value;
+	 wynik = a-b;
+	 document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+    
+     
+   }
+  function dziel(){
+    var wynik;
+     var a = document.getElementById("a").value;
+     var b = document.getElementById("b").value;
+     wynik = a/b;
+	 document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+	 
+	 
+     
+     
+   }
+  function mnoz(){
+    var wynik;
+     var a = document.getElementById("a").value;
+     var b = document.getElementById("b").value;
+	wynik = a*b;
+	document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+    
+     
+   }
+   </script>
+</body>
+</html>
