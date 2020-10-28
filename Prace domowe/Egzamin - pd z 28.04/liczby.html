@@ -42,9 +42,10 @@ Autor: XXXXXXXXXXX
 </div>
   <script>
     function g(){
-    var a = document.getElementById("A");
-    var b = document.getElementById("R");
-    var x = document.getElementById("W");
+    var a = document.getElementById("A").value;
+    var b = document.getElementById("R").value;
+    var x = document.getElementById("W").value;
+    
     document.getElementById("WYNIK").innerHTML="Ciąg arytmetyczny zawiera wyrazy: ";
     for(var i = 0;i<x; i++){
      a+=b;
