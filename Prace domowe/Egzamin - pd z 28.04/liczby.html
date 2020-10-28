@@ -27,17 +27,30 @@
 <div id="prawy">
 <h2>Generowanie ciągu arytmetycznego</h2>
 <label>Pierwszy wyraz A1: </label>
-<input type="number"/><br/>
+<input type="number" id="A"/><br/>
 <label>Różnica ciągu R: </label>
-<input type="number"/><br/>
+<input type="number" id="R"/><br/>
 <label>Liczba wyrazów w ciągu N: </label>
-<input type="number"/><br/>
-<button>Generuj ciąg</button>
+<input type="number" id="W"/><br/>
+<button onclick="g()">Generuj ciąg</button>
+  <div id="WYNIK"></div>
 </div>
 <div id="stopka">
 <p>
 Autor: XXXXXXXXXXX
 </p>
 </div>
+  <script>
+    function g(){
+    var a = document.getElementById("A");
+    var b = document.getElementById("R");
+    var x = document.getElementById("W");
+    document.getElementById("WYNIK").innerHTML="Ciąg arytmetyczny zawiera wyrazy: ";
+    for(var i = a;a<x; i+=b){
+    document.getElementById("wynik").innerHTML=i+" ";
+    }
+    }
+   
+   </script>
 </body>
 </html>
