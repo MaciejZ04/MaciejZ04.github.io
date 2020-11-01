@@ -123,6 +123,8 @@ to{
 	border-radius: 2px;
 	margin: auto;
 	float:left;
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 .Obrazek h3{
 	opacity: 0;
