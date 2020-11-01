@@ -1,0 +1,46 @@
+body{
+	font-family:Georgia;
+	margin:0;
+	padding:0;
+}
+#gora1, #gora2{
+	background-color:rgb(197,85,160);
+	text-align:center;
+	width:50%;
+	height:180px;
+	float:left;
+
+}
+#baner, #stopka{
+	background-color:rgb(246,226,222);
+	text-align:center;
+	padding:10px;
+	height:100px;
+	overflow:auto;
+	
+}
+#prawy, #lewy{
+	background-color:rgb(197,85,160);
+	color:white;
+	width:50%;
+	height:400px;
+	float:left;
+}
+#zam{
+	background-image:url("cukierki1.png");
+	background-size:auto;
+	padding-right:70px;
+	padding-bottom:120px;
+	font-size:150%;
+	text-decoration:none;
+}
+
+table, td{
+	border:2px solid blue;
+	margin:20px;
+	padding:10px;
+}
+h2{
+	letter-spacing:10px;
+	font-size:200%;
+}

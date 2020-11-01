@@ -1,0 +1,33 @@
+body{
+	font-family:Arial;
+	margin:0;
+}
+#lewy, #prawy{
+	background-color: rgb(255,127,80);
+	color:white;
+	width:50%;
+	height:410px;
+	float:left;
+}
+#baner, #glowny{
+	padding:20px;
+	text-align:center;
+	background-color: rgb(220,220,220);
+}
+#stopkaLewo, #stopkaPrawo{
+	background-color: rgb(255,127,80);
+	color:white;
+	width:50%;
+	height:100px;
+	float:left;
+}
+a{
+	color:white;
+}
+table, td{
+	border-style:solid;
+	border-width:1px;
+	border-color: rgb(255,127,80);
+	text-align:center;
+	padding:10px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang ="pl">
+<head>
+<title>Działania matematyczne</title>
+<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<div id="baner1">
+<img src="logo.jpg" alt="matematyka">
+</div>
+<div id="baner2">
+<h1>Pomocnik Matematyczny</h1>
+</div>
+<div id="baner3">
+<a href="dzialania.html"><h4>Działania</h4></a>
+</div>
+<div id="baner4">
+<a href="mnozenie.html"><h4>Tabliczka mnożenia</h4></a>
+</div>
+<div id="lewy">
+<h3>Proste działania</h3>
+<label>Liczba A:</label>
+<input id="a" type="number"><br/>
+<label>Liczba B:</label>
+<input id="b" type="number"><br/>
+<button onclick="dodaj()">+</button>
+<button onclick="odejmij()">-</button>
+<button onclick="mnoz()">*</button>
+<button onclick="dziel()">/</button>
+<button onclick="poteguj()">A^B</button>
+<div id="wynik"></div>
+</div>
+<div id="prawy">
+<ul>
+<li>Dodawanie</li>
+<li>Odejmowanie</li>
+<li>Mnożenie</li>
+<li>Dzielenie</li>
+<li>Potęgowanie</li>
+</ul>
+</div>
+<div id="stopka">
+<p>Autor: XXXXXXXXXXX</p>
+</div>
+<script>
+   function dodaj(){
+     var wynik;
+     var a = document.getElementById("a").value;
+     var b = document.getElementById("b").value;
+     wynik = parseInt(a) + parseInt(b);
+     document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+   }
+  function odejmij(){
+    var wynik;
+     var a = document.getElementById("a").value;
+     var b = document.getElementById("b").value;
+    wynik = a-b;
+     document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+   }
+  function dziel(){
+    var wynik;
+     var a = document.getElementById("a").value;
+     var b = document.getElementById("b").value;
+    wynik = a/b;
+     if(b==0){
+        document.getElementById("wynik").innerHTML="Niepoprawne dane";
+     }
+     else{
+     document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+     }
+     
+   }
+  function mnoz(){
+    var wynik;
+     var a = document.getElementById("a").value;
+     var b = document.getElementById("b").value;
+    wynik = a*b;
+     document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+   }
+  function poteguj(){
+    var wynik;
+     var a = document.getElementById("a").value;
+     var b = document.getElementById("b").value;
+    wynik = a ** b;
+     document.getElementById("wynik").innerHTML="Wynik:" + wynik;
+   }
+  </script>
+</body>
+</html>
