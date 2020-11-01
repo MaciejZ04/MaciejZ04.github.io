@@ -1,0 +1,153 @@
+html, body{
+	margin:0;
+	padding:0;
+}
+html{
+	height:100%;
+}
+
+body{
+	background-color:#f0f0f0;
+	box-sizing: border-box;
+	font-family: Commissioner;
+	color:#5c5c5c;
+	min-height:100%;
+	position:relative;
+}
+header{
+	text-align:center;
+	background: url('tlo.jpg') fixed;
+	padding: 25px 0 10px;
+	color:blue;
+}
+nav{
+ font-size:30px;
+ text-align:center;
+ padding:15px 0;
+ background-color:#111111;
+}
+a.naw{
+	display:inline-block;
+	width:30%;
+	color:white;
+}
+.portfolio{
+	color:inherit;
+}
+.zaw{
+	text-align:center;
+	height:100px;
+	padding-bottom:250px;
+	padding-top:135px;
+}
+footer{
+	text-align:center;
+	height:110px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+a{
+	text-decoration:none;
+	color:#5c5c5c;
+}
+a:hover{
+	text-decoration:underline;
+	color:silver;
+	text-shadow: 0.5px 0.5px silver;
+}
+#jezyk{
+	font-size:8px;
+}
+#projekt{
+	height:auto;
+}
+#animowane {
+-webkit-animation:port 2s ease-in; 
+-moz-animation: port1 2s ease-in;
+-o-animation:port2 2s ease-in;
+animation:port3 2s ease-in;
+background:none;
+color:#ffffff;
+font-weight:900;
+font-size:38px;
+}
+
+@-webkit-keyframes port
+{
+from{
+	opacity:0;
+}
+to{
+	opacity:1;
+}
+}
+
+@-moz-keyframes port1
+{
+from{
+	opacity:0;
+}
+to{
+	opacity:1;
+}
+}
+
+@-o-keyframes port2
+{
+from{
+	opacity:0;
+}
+to{
+	opacity:1;
+}
+}
+
+@keyframes port3
+{
+from{
+	opacity:0;
+}
+to{
+	opacity:1;
+}
+}
+.Projekty{
+	margin:0.2%;
+	display:inline-block;
+}
+.Obrazek{
+	width: 400px;
+	height: 220px;
+	border: 2px solid black;
+	border-radius: 2px;
+	margin: auto;
+	float:left;
+}
+.Obrazek h3{
+	opacity: 0;
+	text-align: center;
+	padding: 10%;
+	transition: 0.5s;
+}
+.Obrazek:hover h3{
+	background: rgba(0,0,0, 0.4);
+	opacity: 1;
+}
+.Obrazek:hover{
+	border-color:green;
+}
+@media (max-width:625px){
+	  a.naw{
+		  display:inline-block;
+		  width:100%;
+	  }
+	  .Obrazek{
+		  width:220px;
+		  height:220px;
+	  }
+	  .Obrazek h3{
+		  opacity:1;
+		  background: rgba(0,0,0, 0.4);
+	  }
+  }
