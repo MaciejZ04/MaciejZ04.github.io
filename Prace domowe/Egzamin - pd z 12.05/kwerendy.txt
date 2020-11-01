@@ -1,1 +1,0 @@
-nie kwerendy, ale informacja, że tabela zostało zrobiona ręcznie ze względu na moją nieznajomość skryptów (w tym php)
