@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='pl'>
+	<head>
+		<meta charset="utf-8">
+		<title>Usługi fryzjerskie</title>
+		<link rel="stylesheet" href="styl2.css">
+	</head>
+	<body>
+	<div class="lewy">
+		<div class="l1">
+		<h2><a href="index.html">SALON FRYZJERSKI</a></h2>
+		<img class="img2" src="obraz2.jpg" alt="Czesanie">
+		</div>
+		<div class="l2">
+		<h3>Dziś promocja na strzyżenie włosów</h3>
+		<input type="radio" id="krotkie"> Krótkie <br>
+		<input type="radio" id="srednie"> Średnie <br>
+		<input type="radio" id="poldlugie"> Półdługie <br>
+		<input type="radio" id="dlugie"> Długie <br>
+		<button onclick="Oblicz()">Odkryj promocję</button> <br>
+		<p id="wynik"></p>
+		</div>
+	</div>
+	<div class="prawy">
+		<div class="p1">
+		<h2>MENU</h2>
+		</div>
+		<div class="p2">
+		<ol>
+			<li><a href="fryzura.html">Strzyżenie</a></li>
+			<ul>
+				<li>krótkie</li>
+				<li>średnie</li>
+				<li>półdługie</li>
+				<li>długie</li>
+			</ul>
+			<li>Czesanie</li>
+			<li>Koloryzacja</li>
+		</ol>
+		</div>
+		<div class="p3">
+		<img src="obraz1.jpg" alt="Fryzjer">
+		</div>
+	</div>
+		<div class="stopa">
+		<p>Autor: 0000000000</p>
+		</div>
+		<script>
+		function Oblicz(){
+	var a = document.getElementById("krotkie");
+	var b = document.getElementById("srednie");
+	var c = document.getElementById("poldlugie");
+	var d = document.getElementById("dlugie");
+	var e = 0;
+	if(a.checked == true){
+		e = 25;
+	}
+	if(b.checked == true){
+		e = 30;
+	}
+	if(c.checked == true){
+		e = 40;
+	}
+	if(d.checked == true){
+		e = 50;
+	}
+	document.getElementById("wynik").innerHTML = "Cena strzyżenia:" + e;
+}
+		</script>
+	</body>
+</html>
