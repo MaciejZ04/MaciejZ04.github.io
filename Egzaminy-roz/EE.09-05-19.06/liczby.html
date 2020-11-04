@@ -33,7 +33,7 @@
 <label>Liczba wyrazów w ciągu N: </label>
 <input type="number" id="W"/><br/>
 <button onclick="g()">Generuj ciąg</button>
-  <div id="WYNIK"></div>
+  <p id="WYNIK"></p>
 </div>
 <div id="stopka">
 <p>
@@ -47,7 +47,7 @@ Autor: XXXXXXXXXXX
     var x = +document.getElementById("W").value;
     document.getElementById("WYNIK").innerHTML="Ciąg arytmetyczny zawiera wyrazy: ";
     for(var i = 0;i<x; i++)
-      document.getElementById("WYNIK").innerHTML+=a=" ";
+      document.getElementById("WYNIK").innerHTML+=a+" ";
       a+=b;
     }
     }
