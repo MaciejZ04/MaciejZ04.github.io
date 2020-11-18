@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Usługi kosmetyczne</title>
+<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<div id="lewy">
+<div id="l1">
+<h2>W ofercie</h2>
+<ul>
+<li><a href="twarz.html">Zabiegi na twarz</a>
+<ol>
+<li>Piling</li>
+<li>Maska</li>
+<li>Regulacja brwi</li>
+</ol></li>
+<li>Masaż</li>
+<li>Diety oczyszczające</li>
+</ul>
+<a href="index.html">Do strony głównej</a>
+</div>
+<div id="l2">
+<img src="obraz1.jpg" alt="Kosmetyczka">
+</div>
+</div>
+<div id="prawy">
+<div id="p1">
+<h1>Salon Kosmetyczny</h1>
+</div>
+<div id="p2">
+<h2>Sprawdź cenę swojej wizyty</h2>
+<input type="checkbox" id="Piling">Piling<br/>
+<input type="checkbox" id="Maska">Maska<br/>
+<input type="checkbox" id="Masaz_twarzy">Masaż twarzy<br/>
+<input type="checkbox" id="Regulacja_brwi">Regulacja brwi<br/>
+<button onclick="cena()">Sprawdź cenę</button><br/>
+<p id="wypisz"></p>
+</div>
+</div>
+<footer>
+<p>Autor: XXXXXXXXXXX</p>
+</footer>
+<script>
+function cena(){
+var a = document.getElementById("Piling");
+var b = document.getElementById("Maska");
+var c = document.getElementById("Masaz_twarzy");
+var d = document.getElementById("Regulacja_brwi");
+var e = 0;
+if(a.checked == true){
+e += 45;
+}
+if(b.checked == true){
+e += 30;
+}
+if(c.checked == true){
+e += 20;
+}
+if(d.checked == true){
+e += 5;
+}
+document.getElementById("wypisz").innerHTML = "Cena zabiegów: " + e;
+}
+</script>
+</body>
+</html>
