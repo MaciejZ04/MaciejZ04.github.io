@@ -70,7 +70,7 @@ background:none;
 color:#ffffff;
 font-weight:900;
 font-size:38px;
-text-shadow: 0.3px 0.3px black;
+text-shadow: 1px 1px gray;
 }
 
 @-webkit-keyframes port
