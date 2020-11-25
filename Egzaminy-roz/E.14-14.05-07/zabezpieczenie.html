@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang ="pl">
+ <head>
+ <title>Zabezpieczenie</title>
+ <link rel = "stylesheet" href = "czcionka.css">
+ </head>
+ <body>
+ <p>Podaj hasło do tej podstrony</p>
+ <input type="text" id="haslo">
+ <button onclick="zat()">Zatwierdź</button>
+ <script>
+ function zat(){
+ var x = document.getElementById("haslo").value;
+ if(x=="liczba"){
+  location.href="jakaliczba.html";
+ }
+ }
+ </script>
+ </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang ="pl">
+ <head>
+ <title>Liczby z zakresu</title>
+ <link rel = "stylesheet" href = "czcionka.css">
+ <link rel = "stylesheet" href = "styl.css">
+ </head>
+ <body>
+ <header>
+  <a href="glowna.html"><img src="baner.jpg" alt="baner"></a>
+ </header>
+ <div id="lewy">
+ <nav>
+ <p>MENU</p>
+ <a href="opis.html">Opis</a><br/>
+ <a href="zabezpieczenie.html">Jaka to liczba?</a><br/>
+ <a href="liczbyZzakresu.html">Liczby całkowite z zakresu</a>
+ </nav>
+ </div>
+ <div id="prawy">
+ <p id="wypiszciag"></p>
+ </div>
+ <script>
+ var x = +prompt("Podaj liczbę początkową");
+ var z = +prompt("Podaj liczbę końcową");
+ if(x>z){
+ for(var i=0;i<=(x-z);i++){
+ document.getElementById("wypiszciag").innerHTML+=(x-i)+" ";
+ }
+ }
+ else{
+ for(var i=0;i<=(z-x);i++){
+ document.getElementById("wypiszciag").innerHTML+=(x+i)+" ";
+ }
+ }
+ </script>
+ </body>
+</html>

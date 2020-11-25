@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang ="pl">
+ <head>
+ <title>Jaka to liczba?</title>
+ <link rel = "stylesheet" href = "czcionka.css">
+ <link rel = "stylesheet" href = "styl.css">
+ </head>
+ <body>
+ <header>
+  <a href="glowna.html"><img src="baner.jpg" alt="baner"></a>
+ </header>
+ <div id="lewy">
+ <nav>
+ <p>MENU</p>
+ <a href="opis.html">Opis</a><br/>
+ <a href="zabezpieczenie.html">Jaka to liczba?</a><br/>
+ <a href="liczbyZzakresu.html">Liczby całkowite z zakresu</a>
+ </nav>
+ </div>
+ <div id="prawy">
+ <p id="liczba"></p>
+ </div>
+  <script>
+ var x = +prompt("Podaj liczbę całkowitą");
+ if(x==0){
+ document.getElementById("liczba").innerHTML="Liczba "+x+" to zero"; 
+ }
+ else if(x<0){
+ document.getElementById("liczba").innerHTML="Liczba "+x+" jest ujemna"; 
+ }
+ else{
+ document.getElementById("liczba").innerHTML="Liczba "+x+" jest dodatnia";
+ }
+ </script>
+ </body>
+</html>
