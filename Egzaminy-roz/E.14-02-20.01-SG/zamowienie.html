@@ -37,17 +37,38 @@
 </div>
 <div id="prawy">
 <p>Podaj numer kształtu: </p> 
-<input type="number" min="1" max="3"></input>
+<input type="number" min="1" id="ksztalt"></input>
 <p>skomponuj swój kolor, podaj RGB: </p>
-<label>R: </label><input type="number" min="0"max="255"></input>
-<label>G: </label><input type="number" min="0"max="255"></input>
-<label>B: </label><input type="number" min="0"max="255"></input><br/>
-<button>Zamów</button><br/>
-<p>Wybrany kształt</p>
-<button>Wybrany kolor</button>
+<label>R: </label><input type="number" min="0"max="255" id="R">
+<label>G: </label><input type="number" min="0"max="255" id="G">
+<label>B: </label><input type="number" min="0"max="255" id="B"><br/>
+<button onclick="zamow()">Zamów</button><br/>
+<p id="pisz">Wybrany kształt</p>
+<button id="kolor">Wybrany kolor</button>
 </div>
 <div id="stopka">
 <p>Autor strony: <i>XXXXXXXXXXX</i></p>
 </div>
 </body>
+<script>
+function zamow(){
+var ksztalt=+document.getElementById("ksztalt").value;
+  if(ksztalt==1){
+    document.getElementById("pisz").innerHTML="Zamówiłeś żelka: miś";
+  }
+  else if(ksztalt==2){
+    document.getElementById("pisz").innerHTML="Zamówiłeś żelka: żabka";
+  }
+  else if(ksztalt==3){
+    document.getElementById("pisz").innerHTML="Zamówiłeś żelka: serce";
+  }
+  else{
+    document.getElementById("pisz").innerHTML="Zamówiłeś żelka: inny kształt";
+  }
+  var r = +document.getElementById("R").value;
+  var g = +document.getElementById("G").value;
+  var b = +document.getElementById("B").value;
+  document.getElementById("kolor").style.property="color: rgb(r, g, b)"
+}
+</script>
 </html>
