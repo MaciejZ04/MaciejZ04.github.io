@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<title>Wakacje marzeń</title>
+<link rel="stylesheet" href="styl_1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="goralewy">
+<img src="logo.png" alt="Nasze logo"/>
+</div>
+<div id="goraprawy">
+<h1 id="nagl">Biuro Turystyczne - Wakacje Marzeń</h1>
+</div>
+<div id="baner">
+<h1 id="naglowek">Na tej stronie znajdziej noclegi w wybranej miejscowości</h1>
+</div>
+<div id="glownylewy">
+<img src="morze.jpg" alt="wybrzeże"/>
+<table>
+<tr>
+<td><h3>Miejscowość</h3></td>
+<td><h3>Rodzaj noclegu</h3></td>
+</tr>
+<tr>
+<td>
+1.Rewal<br>2.Sopot<br>3.Ustka<br>4.Jastarnia<br>5.Malbork<br>6.Zakopane<br>7.Karpacz<br>8.Cisna
+</td>
+<td>
+<ol>
+<li>apartament</li>
+<li>hotel</li>
+<li>pensjonat</li>
+<li>kwatera prywatna</li>
+<li>agroturystyka</li>
+<li>domek kempingowy</li>
+</ol>
+</td>
+</tr>
+</table>
+<button onclick="skrypt()">Wersja dla osób słabowidzących</button>
+</div>
+<div id="glownyprawy">
+<img src="góry.jpg" alt="góry"/>
+<form action="noclegi.html" method="post">
+<h4>Wpisz poniżej numery</h4>
+<label>Miejscowości: </label><input type="number"><br/>
+<label>Rodzaj noclegu: </label><input type="number"><br/>
+<button type="submit">WYBIERZ</button>
+<button type="reset">WYCZYŚĆ</button>
+</form>
+</div>
+<footer id="footer">
+<p>adrs: ul. Wakacyjna 12 Wrocław, telefon: 123123123, e-mail: biuro.turystyczne@wp.pl</p>
+</footer>
+<script>
+function skrypt(){
+  goralewy.style.backgroundColor='white';
+  goraprawy.style.backgroundColor='white';
+  baner.style.backgroundColor='white';
+  glownylewy.style.backgroundColor='white';
+  glownyprawy.style.backgroundColor='white';
+  footer.style.backgroundColor='white';
+  nagl.style.color='black';
+  naglowek.style.color='black';
+}
+</script>
+</body>
+</html>

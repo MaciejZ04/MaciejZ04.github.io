@@ -1,0 +1,69 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+#goralewy, #goraprawy{
+	background-color: DeepSkyBlue;
+	height:150px;
+	font-size:120%;
+	text-align: center;
+	float:left;
+}
+#goralewy{
+	width:25%;
+}
+#goraprawy{
+	width:75%;
+}
+#baner, footer{
+	background-color:Tomato;
+	text-align:center;
+	clear:both;
+}
+#baner{
+	height:50px;
+}
+#glownylewy, #glownyprawy{
+	background-color:DeepSkyBlue;
+	height:350px;
+	width:50%;
+	float:left;
+}
+#glownyprawy{
+	line-height:25px;
+}
+h1{
+	color:Maroon;
+}
+table{
+	height:100px;
+	width:50%;
+	margin-top:50px;
+}
+input, button{
+	background-color:Tomato;
+	border:none;
+	border-radius:5px;
+}
+#glownylewy button{
+	width:300px;
+	
+}
+form input, button{
+	width:100px;
+}
+#glownylewy img{
+	margin-top:25px;
+	margin-right:50px;
+}
+#glownyprawy img{
+	margin-top:25px;
+	margin-right:50px;
+}
+#glownylewy img{
+	float:right;
+}
+#glownyprawy img{
+	float:left;
+}
