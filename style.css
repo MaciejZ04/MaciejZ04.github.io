@@ -61,6 +61,10 @@ a:hover{
 #projekt{
 	height:auto;
 }
+#404{
+text-align:center;
+font-size:200%;
+}
 #animowane {
 -webkit-animation:port 2s ease-in; 
 -moz-animation: port1 2s ease-in;
