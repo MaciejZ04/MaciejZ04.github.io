@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<title>Miernik jakości hasła</title>
+<link rel="stylesheet" href="styl.css">
+<meta charset="UTF-8">
+</head>
+<body>
+<header>
+<a href="index.html"><h1>Sprawdź swoje hasło</h1></a>
+</header>
+<div id="lewy">
+<h2>Wybierz</h2>
+<ol>
+<li><a href="haslo.html">Sprawdź hasło</a></li>
+<li><a href="zasady.html">Zasady tworzenia hasła</a></li>
+</ol>
+</div>
+<div id="prawy">
+<p>Twoje hasło: 
+<input type="password" id="mojehaslo"/>
+<button onclick="sprawdz()">Sprawdź</button>
+</p>
+<p id="wynik"></p>
+</div>
+<footer>
+<h3>Miernik jakości hasła</h3>
+<p>Stronę opracował: XXXXXXXXXXX</p>
+</footer>
+<script>
+function sprawdz(){
+var password = mojehaslo.value;
+if(password == ""){
+wynik.style.color="red";
+wynik.innerHTML="WPISZ HASŁO";
+}
+else if(password.length > 3 && password.length < 7 && password.search("[0-9]") > 0){
+wynik.style.color="blue";
+wynik.innerHTML="ŚREDNIE";
+}
+else if(password.length > 6 && password.search("[0-9]") > 0){
+wynik.style.color="green";
+wynik.innerHTML="DOBRE";
+}
+else{
+wynik.style.color="yellow";
+wynik.innerHTML="SŁABE";
+}
+}
+
+</script>
+</body>
+</html>
