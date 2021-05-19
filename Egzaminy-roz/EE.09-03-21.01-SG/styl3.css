@@ -1,0 +1,55 @@
+body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	background-color:#FFFAFA;
+	font-family:Georgia;
+}
+#logo{
+	background-color:#FF7F50;
+	width:25%;
+	height:100px;
+	float:left;
+}
+#baner{
+	background-color:#FF7F50;
+	text-align:center;
+	font-size:130%;
+	width:75%;
+	height:100px;
+	float:right;
+}
+#glowny{
+	background-color:#FF7F50;
+	padding:70px;
+	clear:both;
+}
+#lewy{
+	width:40%;
+	height:400px;
+	float:left;
+}
+#prawy{
+	width:60%;
+	height:400px;
+	text-align:right;
+	float:right;
+}
+footer{
+	background-color:#FF7F50;
+	padding:20px;
+	clear:both;
+}
+#form{
+	margin:80px;
+}
+table{
+	color:white;
+	text-align:center;
+	width:80%;
+	border: 1px dotted white;
+}
+tr:hover{
+	background-color:#D3D3D3;
+	color:black;
+}
