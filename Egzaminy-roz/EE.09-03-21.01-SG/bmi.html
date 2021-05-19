@@ -58,22 +58,22 @@ function ObliczBMI(){
 var waga = +document.getElementById("waga").value;
 var wzrost = +document.getElementById("wzrost").value;
 var BMI = waga/(wzrost*wzrost)*10000;
-dane.innerHTML ="Twoja waga: "+waga+" Twój wzorst: "+wzrost;
+dane.innerHTML ="Twoja waga: "+waga+" Twój wzrost: "+wzrost;
 bmi.innerHTML="BMI wynosi: "+BMI;
 if(BMI>=0 && BMI<=18){
 bmi.innerHTML+="Niedowaga";
 }
 else if(BMI>18 && BMI<=25){
-bmi.innerHTML+="Waga prawidłowa";
+bmi.innerHTML+=" Waga prawidłowa";
 }
 else if(BMI>25 && BMI<=30){
-bmi.innerHTML+="Nadwaga";
+bmi.innerHTML+=" Nadwaga";
 }
 else if(BMI>30 && BMI<=100){
-bmi.innerHTML+="Otyłość"
+bmi.innerHTML+=" Otyłość"
 }
 else{
-bmi.innerHTML ="Ciekawie";
+bmi.innerHTML+=" Ciekawie";
 }
 }
 </script>
