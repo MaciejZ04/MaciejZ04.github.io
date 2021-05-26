@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="remont.css"/>
+<title>Wyremontuj mieszkanie</title>
+</head>
+<body>
+<div id="baner">
+<img src="logo.png" alt="logo"/>
+</div>
+<div id="menu1">
+<a href="index.html">O NAS</a>
+</div>
+<div id="menu2">
+<a href="kontakt.html">KONTAKT</a>
+</div>
+<div id="menu3">
+<a href="kalkulator.html">KALKULATOR</a>
+</div>
+<div id="menu4">
+<a href="http://www.jakremontowac.pl/">POLECANE STRONY</a>
+</div>
+<div id="glowny">
+<h1>Malowanie pokoju 8 zł za m2</h1>
+<p>Wymiar pokoju w metrach</p>
+<input type="number" id="dlugosc"/>
+<input type="number" id="szerokosc"/>
+<button onclick="oblicz()">OBLICZ KOSZT</button>
+<p id="wynik1"></p>
+<p id="wynik2"></p>
+</div>
+<footer>
+<p>Autor strony: XXXXXXXXXXX</p>
+</footer>
+<script>
+function oblicz(){
+var a = dlugosc.value * 1;
+var b = szerokosc.value * 1;
+sciany = 2*(a*2.7)+2*(b*2.7);
+koszt = sciany * 8
+wynik1.innerHTML="Powierzchnia całkowita ścian " + sciany +" m2";
+wynik2.innerHTML="Koszt malowania " + koszt +" zł";
+}
+</script>
+</body>
+</html>
