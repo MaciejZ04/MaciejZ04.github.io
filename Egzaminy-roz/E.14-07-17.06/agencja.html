@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<title>Kup mieszkanie</title>
+<link rel="stylesheet" href="agencja.css"/>
+</head>
+<body>
+<div id="lewy">
+<h1>AGENCJA NIERUCHOMOŚCI</h1>
+<h3>OFERUJEMY</h3>
+<ol>
+<li>Nowe mieszkania</li>
+<li>Domy w naszym mieście</li>
+<li>Domy w okolicy</li>
+</ol>
+<h3>NASI PRACOWNICY</h3>
+<table>
+<tr><td rowspan="3">Jan Nowak <br/> Prezes</td><td>Anna Kowalska</td></tr>
+<tr><td>Katarzyna Nowakowska</td></tr>
+<tr><td>Krzysztof Kowalewski</td></tr>
+</table>
+</div>
+<div id="prawy">
+<h1>KALKULATOR CENY MIESZKANIA</h1>
+<label>Podaj metraż mieszkania w m<sup>2</sup></label><input type="number" id="metraz"/><br/>
+<label>Liczba pokoi z zamontowanym okablowaniem sieciowym</label><input type="number" id="pokoje"/><br/>
+<input type="checkbox" id="czek"/><label>Kafelki w łazience?</label><br/>
+<button onClick="oblicz()">OBLICZ</button>
+<p id="wynik"></p>
+</div>
+<footer>
+<p>Autor strony: XXXXXXXXXXX</p>
+<img src="projekt.png" alt="nieruchomości"/>
+</footer>
+<script>
+function oblicz(){
+var ilem2 = +metraz.value;
+var sieci = +pokoje.value;
+var koszt = ilem2 * 4000 + sieci * 1000;
+if(czek.checked == true){
+koszt+=2000;
+}
+wynik.innerHTML = "Koszt mieszkania: "+koszt+" zł";
+}
+</script>
+</body>
+</html>

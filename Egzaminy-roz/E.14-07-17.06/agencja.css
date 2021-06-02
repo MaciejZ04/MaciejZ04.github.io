@@ -1,0 +1,40 @@
+body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+#lewy{
+	width:40%;
+	height:600px;
+	background-color:#FF8989;
+	float:left;
+}
+#prawy{
+	width:60%;
+	height:600px;
+	background-color:#7872D9;
+	float:left;
+}
+footer{
+	background-color:black;
+	color:white;
+	font-size:150%;
+	text-align:right;
+	clear:both;
+}
+table, td{
+	margin:20px;
+	padding:30px;
+	border: 2px solid brown;
+	border-collapse:collapse;
+}
+button{
+	margin:10px;
+	padding:10px;
+	border: 2px blue;
+	background-color:cyan;
+	font-size:20px;
+}
+h1{
+	text-align:center;
+}
